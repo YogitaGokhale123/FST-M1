@@ -24,7 +24,7 @@ public class Proj_Act9 {
 
         @Test
         public void testCase1() throws InterruptedException {
-            WebDriverWait wait=new WebDriverWait(driver,5);
+            WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5));
             //This test case will pass
             WebElement username = driver.findElement(By.id("user_name"));
             WebElement password = driver.findElement(By.id("username_password"));
